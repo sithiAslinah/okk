@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main HTML</title>
+			<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/0fa261738b.js" crossorigin="anonymous"></script>
+  <style type="text/css">
+  	.head-img{
+  		image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  object-fit:cover;
+  	}
+  	.navbar{
+  		background-image: linear-gradient(to right,#011387  , #0522d3);
+  	}
+  	.nav-item{
+  		font-size:20px;
+  	}
+  	.nav-item::after {
+    content: '';
+    display:block;
+    width:0;
+    height:2px;
+    background:white;
+    transition: width .2s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+  	.col img{
+  		width:500px;
+  		height:280px;
+  		object-fit:cover;
+  	}
+  	.img-fluid{
+  		transition:transform 0.3s;
+  	}
+  	.img-fluid:hover{
+  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		transform: scale(1.1); 
+  	}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav p-3 ">
+      <a class="nav-item nav-link text-white active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link text-white did" href="#t1">Theme 1</a>
+      <a class="nav-item nav-link text-white" href="#t2">Theme 2</a>
+      <a class="nav-item nav-link text-white" href="#t3">Theme 3</a>
+      <a class="nav-item nav-link text-white" href="#t4">Theme 4</a>
+      <a class="nav-item nav-link text-white" href="#t5">Theme 5</a>
+      <a class="nav-item nav-link text-white" href="#support">Support</a>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img class="d-block w-100 head-img" src="webrest/oiuji.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 head-img" src="webrest/horiuji.jpg" alt="Second slide">
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-light p-5">
+<div class="container  text-center">
+<h2 class="display-4">Provide Website Support</h2>
+<p>This themes are exclusive and follow current trends in web design.Our designers will provide 100% support to resolve any difficulties.Furthermore,It is user friendly and easy for modify the content.</p>
+</div></div>
+<div class="container  text-center">
+<h2 class="display-4">Select Your Theme</h2>
+</div>
+<div class="container-fluid">
+<div class="container">
+    <div class="row p-4">
+    <div class="col p-3" id="t1">
+    <div class="container pt-5">
+    <h3>Theme 1</h3>
+    <hr>
+    <p>This theme include grid,flex,jquery transition and parallax effect.
+    It demonstrate the special promotion in restaurant,user feedback,booking for special event concept and more.It prefers to use for traditional based restaurants and catering services.</p>
+    </div>
+    </div>
+    <div class="col-sm p-3"><a href="../01_theme1/theme1/home.html"><img src="webrest/oiuji.jpg" class="img-fluid"></a></div>
+
+    <div class="w-100"></div>
+
+    <div class="col-sm"><a href="../02_theme2/theme2/home2.html"><img src="webrest/theme2.jpg" class="img-fluid"></a></div>
+    <div class="col" id="t2"> 
+    <div class="container pt-5">
+    <h3>Theme 2</h3>
+    <hr>
+    <p>This theme include grid,flex,jquery transition and parallax effect.
+    It demonstrate the special promotion in restaurant,user feedback,booking for special event concept and more.It prefers to use for traditional based restaurants and catering services.</p></div>
+    </div></div>
+    <div class="w-100"></div>
+    </div>
+    </div>
+
+    
+   <div class="container-fluid bg-dark p-5">
+<div class="container text-white text-center">
+<h2 class="display-4">User Feedback theme</h2>
+<p>Theme 3 and 4 include a card layout for display user feedback with rating.Choose the theme based on customer feedback.It helps to bring trust towards the service.</p>
+</div></div>
+
+
+
+
+
+
+
+
+    <div class="container">
+    <div class="row p-4">
+    <div class="col" id="t3">
+    <div class="container pt-5">
+    <h3>Theme 3</h3>
+    <hr>
+    <p>This theme include grid,flex,jquery transition and parallax effect.
+    It demonstrate the special promotion in restaurant,user feedback,booking for special event concept and more.It prefers to use for traditional based restaurants and catering services.</p>
+    </div>
+    </div>
+    <div class="col-sm h-100"><a href="../03_theme3/theme3/home3.html"><img src="webrest/theme3.jpg" class="img-fluid"></a></div>
+
+    <div class="w-100"></div>
+
+    <div class="col-sm"><a href="../04_theme4/theme4/home4.html"><img src="webrest/theme4.jpg" class="img-fluid"></a></div>
+    <div class="col" id="t4"> 
+    <div class="container pt-5">
+    <h3>Theme 4</h3>
+    <hr>
+    <p>This theme include grid,flex,jquery transition and parallax effect.
+    It demonstrate the special promotion in restaurant,user feedback,booking for special event concept and more.It prefers to use for traditional based restaurants and catering services.</p></div>
+    </div></div>
+    <div class="w-100"></div>
+    </div>
+</div>
+
+
+    <div class="container-fluid bg-dark p-5">
+<div class="container  text-white text-center">
+<h2 class="display-4">Special Slide Transition</h2>
+<p>Theme 5 include cool slide transition with parallax and jquery effect.It suitable for a modern based cafe and food related services.</p>
+</div></div>
+    
+
+    <div class="container">
+    <div class="row p-4">
+    <div class="col" id="t5">
+    <div class="container pt-5">
+    <h3>Theme 5</h3>
+    <hr>
+    <p>This theme include grid,flex,jquery transition and parallax effect.
+    It demonstrate the special promotion in restaurant,user feedback,booking for special event concept and more.It prefers to use for traditional based restaurants and catering services.</p>
+    </div>
+    </div>
+    <div class="col-sm"><a href="../05_theme5/theme5/home5.html"><img src="webrest/theme5.jpg" class="img-fluid"></a></div>
+    </div>
+</div>
+<footer class="container-fluid bg-dark text-white" id="support">
+	<div class="container p-5 text-center">
+	<span>Design SRA CANVAS</span><br>
+	<span>-The images display in websites are downloaded from pixabay.com</span><br>
+	<span>-Contact sithiaslinah03@gmail.com for the support</span><br>
+	<span>@CopyRight 2020</span></div>
+</footer>
+</body>
+</html>
