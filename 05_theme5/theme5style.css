@@ -1,0 +1,188 @@
+
+    html{
+       font-size:16px;
+    }
+    .phone{
+     position:relative;
+     padding:5px 50px;
+    }
+		.navbar{
+      padding:0px 30px;
+		}
+		.nav-item {
+		    font-size:1.25rem;
+        background-position: center;
+        transition:0.8s;
+    }
+    .nav-item:hover {
+       background:#ffd967 radial-gradient(circle, transparent 1%, #f0ad4e 1%) center/15000%;
+       border-radius:10px;
+     }
+    .nav-item:active {
+    background-color:#ff9393;
+     background-size: 100%;
+     transition: background 0s;
+     }
+   .carousel-item img{
+     height:100%;
+     filter:brightness(0.40);
+   }
+   .carousel-caption{
+    position:absolute;
+    font-family: 'Laila', serif;
+    top:50%;
+    transform:translateY(-50%);
+    color:white;
+   }
+   .card-footer{
+    padding:0px;
+    overflow:hidden;
+   }
+  .col-sm-8{
+  border-right:2px solid white;
+   }
+   .col-sm-3{
+    font-size:1.6rem;
+    font-weight:bold;
+   }
+
+   .card-img-top{
+    width:100%;
+    object-fit:cover;
+   }
+   .checked{
+    color:orange;
+    }
+     .package{
+      margin-top:600px;
+      transition-duration:1s;
+    }
+   .about-full{
+  background-image: url(../img/img2.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+   background-position:center;
+background-attachment:fixed;
+  height:auto;
+  padding:0px;
+  object-fit:contain;
+}
+.container-sm{
+  padding:10px;
+}
+    .img-gal{
+     position:relative;
+     height:300px;
+     overflow:hidden;
+     object-fit:cover;
+      transform: perspective(550px) rotateY(20deg);
+       -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+    }
+    .gal{
+      object-fit:cover;
+    }
+    .full-main{
+      position:relative;
+      height:450px;
+      width:100%;
+      overflow:auto;
+     
+    }
+    .menu,.drink,.other
+    {
+      padding:10px;
+    }
+    .menu,.drink,.bev,.food,.other,.more
+    {
+      position:absolute;
+      top:0px;
+      left:0px;
+    }
+    .abt{
+  width:25%;
+  padding:10px;
+}
+.did{
+  overflow:hidden;
+}
+.starter{
+  position:relative;
+  right:100%;
+  background:url("../img/stater.jpg");
+  transition-duration:0.5s;
+
+}
+.dessert{
+  position:relative;
+  left:100%;
+  background:url("../img/mall.jpg");
+  transition-duration:0.5s;
+
+}
+.ingredients{
+      background-image:url("../img/tum.jpg");
+      background-position:center;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-size:cover;
+      
+    }
+    .cont-ingred{
+      margin:auto;
+    }
+      .footer {
+   position: relative;
+   left: 0;
+   top:0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+.connect a{
+  font-size:2rem;
+  
+}
+/*  contACT */
+.phone{
+     position:relative;
+     padding:5px 50px;
+    }
+  .head-contact{
+  background-image: url(../img/tum.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:400px;
+  padding:0px;
+  object-fit:contain;
+  position:relative;
+}
+.cont-head{
+  position:relative;
+  top:50%;
+}
+input{
+      border-radius:10px;
+}
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .display-2 {
+    font-size:2rem;
+  }
+  .display-3{
+        font-size:30px;
+       } .abt{
+  width:100%;
+
+}
+}
+@media only screen and (max-width: 568px) {
+  /* For mobile phones: */
+  .display-2 {
+    font-size:1.5rem;
+  }
+ 
+}
