@@ -1,12 +1,8 @@
 
-    html{
+html{
        font-size:16px;
     }
-    .phone{
-     position:relative;
-     padding:5px 50px;
-    }
-		.navbar{
+  	.navbar{
       padding:0px 30px;
 		}
 		.nav-item {
